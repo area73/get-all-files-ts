@@ -25,6 +25,10 @@
 * removed Ava testing framework in favor of  jest as testing framework.
 * Added new tests.
 * Added jsDoc on private and public functions.
+* Added extra param in options `excludedDirs?: string[]`:
+   * An array of excluded dirs. Similar to `isExcludedDir` but without the hassle fo creating a
+     predicate. Just give it a list of dirs to be excluded.
+
 
 ## Install
 
