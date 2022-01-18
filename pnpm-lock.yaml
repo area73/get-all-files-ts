@@ -12,7 +12,7 @@ specifiers:
   nodemon: 2.0.15
   terser: 5.10.0
   ts-node: 10.4.0
-  typedoc: 0.22.10
+  typedoc: 0.22.11
   typescript: 4.5.4
   xo: 0.47.0
 
@@ -28,7 +28,7 @@ devDependencies:
   nodemon: 2.0.15
   terser: 5.10.0
   ts-node: 10.4.0_faf01e1d5a40372a98081522dcafc186
-  typedoc: 0.22.10_typescript@4.5.4
+  typedoc: 0.22.11_typescript@4.5.4
   typescript: 4.5.4
   xo: 0.47.0
 
@@ -4724,8 +4724,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /marked/3.0.8:
-    resolution: {integrity: sha512-0gVrAjo5m0VZSJb4rpL59K1unJAMb/hm8HRXqasD8VeC8m91ytDPMritgFSlKonfdt+rRYYpP/JfLxgIX8yoSw==}
+  /marked/4.0.10:
+    resolution: {integrity: sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -5527,8 +5527,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki/0.9.15:
-    resolution: {integrity: sha512-/Y0z9IzhJ8nD9nbceORCqu6NgT9X6I8Fk8c3SICHI5NbZRLdZYFaB233gwct9sU0vvSypyaL/qaKvzyQGJBZSw==}
+  /shiki/0.10.0:
+    resolution: {integrity: sha512-iczxaIYeBFHTFrQPb9DVy2SKgYxC4Wo7Iucm7C17cCh2Ge/refnvHscUOxM85u57MfLoNOtjoEFUWt9gBexblA==}
     dependencies:
       jsonc-parser: 3.0.0
       vscode-oniguruma: 1.6.1
@@ -5961,8 +5961,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typedoc/0.22.10_typescript@4.5.4:
-    resolution: {integrity: sha512-hQYZ4WtoMZ61wDC6w10kxA42+jclWngdmztNZsDvIz7BMJg7F2xnT+uYsUa7OluyKossdFj9E9Ye4QOZKTy8SA==}
+  /typedoc/0.22.11_typescript@4.5.4:
+    resolution: {integrity: sha512-pVr3hh6dkS3lPPaZz1fNpvcrqLdtEvXmXayN55czlamSgvEjh+57GUqfhAI1Xsuu/hNHUT1KNSx8LH2wBP/7SA==}
     engines: {node: '>= 12.10.0'}
     hasBin: true
     peerDependencies:
@@ -5970,9 +5970,9 @@ packages:
     dependencies:
       glob: 7.2.0
       lunr: 2.3.9
-      marked: 3.0.8
+      marked: 4.0.10
       minimatch: 3.0.4
-      shiki: 0.9.15
+      shiki: 0.10.0
       typescript: 4.5.4
     dev: true
 
