@@ -6,7 +6,7 @@
     "email": "rerades@siete3.com",
     "url": "http://siete3.com"
   },
-  "description": "A TypeScript blazing fast recursive directory crawler with lazy sync and async iterator support, fork from  get-all-files by @TomerAberbach",
+  "description": "A TypeScript blazing-fast recursive directory crawler with lazy sync and async iterator support, forked from  get-all-files by @TomerAberbach",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
