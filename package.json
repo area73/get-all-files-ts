@@ -62,7 +62,7 @@
     "babel-jest": "27.4.6",
     "eslint": "7.32.0",
     "jest": "27.4.7",
-    "nodemon": "2.0.15",
+    "nodemon": "2.0.22",
     "terser": "5.10.0",
     "ts-node": "10.4.0",
     "typedoc": "0.22.10",
