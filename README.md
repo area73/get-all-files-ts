@@ -1,6 +1,4 @@
-<h1 align="center">
-  get-all-files-ts
-</h1>
+# get-all-files-ts
 
 <div align="center">
   <a href="https://npmjs.org/package/@a73/get-all-files-ts">
@@ -11,49 +9,42 @@
   </a>
 </div>
 
-<div align="center">
-  A blazing fast recursive directory crawler with lazy sync and async iterator support made in TypeScript.
+**get-all-files-ts** is a speedy recursive directory crawler with support for lazy syncing and async iterators. This crawler has been coded in TypeScript.
 
-  **Forked from https://github.com/TomerAberbach/get-all-files**
-</div>
+This project is a fork of [get-all-files](https://github.com/TomerAberbach/get-all-files).
 
-### This version differs from original version in:
+## Differences from the Original Version:
+* Files have been converted to native TypeScript (*.ts) format.
+* Addition of more types.
+* Inclusion of XO as a linter.
+* Removed Ava testing framework; switched to Jest as the main testing framework.
+* Additional tests added.
+* jsDoc included for private and public functions.
+* `excludedDirs?: string[]` parameter included in options. This parameter enables you to exclude directories by simply entering them in a list, removing the need to create a predicate function.
 
-* files are now typeScript native*.ts
-* more types added.
-* added XO as linter.
-* removed Ava testing framework in favor of  jest as testing framework.
-* Added new tests.
-* Added jsDoc on private and public functions.
-* Added extra param in options `excludedDirs?: string[]`:
-   * An array of excluded dirs. Similar to `isExcludedDir` but without the hassle fo creating a
-     predicate. Just give it a list of dirs to be excluded.
+## Installation
 
-
-## Install
+To install, use the command below:
 
 ```sh
 $ npm i @a73/get-all-files-ts
 ```
 
-## Usage
-Please visit documentation at [`get-all-files-ts` github pages](https://area73.github.io/get-all-files-ts/) to see examples of its use.
+## How to Use
+
+For usage examples, please check out the [`get-all-files-ts` github pages](https://area73.github.io/get-all-files-ts/).
 
 
 ## Documentation
-This library is using [typedoc](https://typedoc.org/).
-A documentation generator for TypeScript projects, similar to jsDoc but for TypeScript files.
 
-You can find it on `/docs` folder or just visit documentation online at https://area73.github.io/get-all-files-ts/
+This library uses [typedoc](https://typedoc.org/), a documentation generator for TypeScript projects similar to jsDoc. You can find the documentation in the `/docs` folder or visit it online at https://area73.github.io/get-all-files-ts/
 
-## Contributing
+## Contribute
 
-Stars are always welcome!
+Star ratings are very much appreciated!
 
-For bugs and feature requests,
-[please create an issue](https://github.com/area73/get-all-files-ts/issues/new).
+For bugs and feature requests, [please create an issue](https://github.com/area73/get-all-files-ts/issues/new).
 
 ## License
 
-[MIT](https://github.com/area73/get-all-files-ts/blob/main/license) ©
-[Rodrigo Erades](https://github.com/area73)
+[MIT](https://github.com/area73/get-all-files-ts/blob/main/license) © [Rodrigo Erades](https://github.com/area73)
